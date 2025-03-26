@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CoupainCity</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+        src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+</head>
+<script src="https://unpkg.com/@material-tailwind/html@latest/scripts/collapse.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
+<body class="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]">
+    <div class="py-24 sm:py-32">
+        <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+            <h2 class="text-center text-base/7  text-purple-600">Cliquez sur l'option de votre choix.</h2>
+            <p
+                class="mx-auto mt-2 max-w-2xl text-balance text-center text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl">
+                Tout ce dont vous avez besoin pour <span
+                    class="bg-gradient-to-t from-purple-600 to-purple-300 bg-clip-text text-transparent">nous
+                    rejoindre.</span></p>
+            <div class="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2">
+                <div class="relative lg:row-span-2">
+                    <div class="absolute inset-px rounded-lg bg-white scale:100 "></div>
+                    <div
+                        class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] lg:rounded-l-[calc(2rem+1px)] ">
+                        <div class="px-8 pb-3 pt-8 sm:px-10 sm:pb-0 sm:pt-10 ">
+                            <p class="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
+                                Installation Windows</p>
+                            <p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">Compatible
+                                avec Windows 10/11 version x64 (non optimisé pour les puces ARM)</p>
+                        </div>
+                        <div
+                            class="relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
+                            <div class="absolute bottom-0 top-10 overflow-hidden">
+                                <img class="h-[min(500px,500px)] object-cover object-center" src="img/Windows.png" alt="">
+                            </div>
+                        </div>
+                        <a>
+
+                        </a>
+                        <button
+                            class=" mb-7 ml-7 mr-7 group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-black px-6 font-medium text-white transition-all [box-shadow:0px_4px_8px_#a3a3a3] active:translate-y-[4px] active:shadow-none"><a
+                                href="https://minelaunched.fr/fr/download/launcher/exe/143-3847-6325108">Télécharger
+                                pour Windows</a></button>
+                    </div>
+                    <div class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 ">
+                    </div>
+                </div>
+                <div class="relative max-lg:row-start-1 ">
+                    <div class="absolute inset-px rounded-lg bg-white max-lg:rounded-t-[2rem] "></div>
+                    <div
+                        class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
+                        <div class="px-8 pt-8 sm:px-10 sm:pt-10">
+                            <p class="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
+                                Installation Linux</p>
+                            <p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">Compatible
+                                avec les distributions Linux les plus populaires (Debian, Ubuntu, Arch, etc..)
+                            </p>
+                        </div>
+                        <div class="flex flex-1 items-center [container-type:inline-size] max-lg:py-6 lg:pb-2">
+                            <img class="size-full object-top object-cover" src="img/Linux.png" alt="">
+                        </div>
+                        <button
+                            class=" mb-7 ml-7 mr-7 group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-black px-6 font-medium text-white transition-all [box-shadow:0px_4px_8px_#a3a3a3] active:translate-y-[4px] active:shadow-none"><a
+                                href="https://minelaunched.fr/fr/download/launcher/jar/143-3847-6325108">Télécharger
+                                pour Linux</a></button>
+                    </div>
+                    <div class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5">
+                    </div>
+                </div>
+                <div class="relative max-lg:row-start-3 lg:col-start-2 lg:row-start-2">
+                    <div class="absolute inset-px rounded-lg bg-white"></div>
+                    <div
+                        class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)]">
+                        <div class="px-8 pt-8 sm:px-10 sm:pt-10">
+                            <p class="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
+                                Installation macOS</p>
+                            <p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">Compatible
+                                avec les Mac équipés de puces Apple Silicon (M1,M2,M3,M4, etc..) et Intel
+                            </p>
+                        </div>
+                        <div class="flex flex-1 items-center [container-type:inline-size] max-lg:py-6 lg:pb-2">
+                            <img class="size-full object-cover object-top" src="img/MacOS.png" alt="">
+                        </div>
+                        <button
+                            class=" mb-7 ml-7 mr-7 group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-black px-6 font-medium text-white transition-all [box-shadow:0px_4px_8px_#a3a3a3] active:translate-y-[4px] active:shadow-none"><a
+                                href="https://minelaunched.fr/fr/download/launcher/jar/143-3847-6325108">Télécharger
+                                pour Macintosh</a></button>
+                    </div>
+                    <div class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5">
+                    </div>
+                </div>
+
+                <div class="relative lg:row-span-2">
+                    <div class="absolute inset-px rounded-lg bg-white max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]">
+                    </div>
+                    <div class="relative flex h-full flex-col overflow-hidden rounded-lg">
+                        <div class="px-8 pb-3 pt-8 sm:px-10 sm:pb-0 sm:pt-10">
+                            <p class="mt-2 text-lg font-medium tracking-tight text-black- max-lg:text-center">
+                                Installation Manuelle</p>
+                            <p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">Si vous rencontrez des difficultés avec le Launcher ou que vous souhaitez simplement installer le ModPack manuellement, veuillez suivre ce tutoriel<br>(ce choix n'est pas recommandé pour les utilisateurs peu expérimentés)
+                            </p>
+                        </div>
+                        <div class="relative min-h-[30rem] w-full grow">
+                            <div
+                                class="relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
+                                <div class="absolute  bottom-0 top-10 overflow-hidden">
+                                    <img class="size-full object-cover object-top" src="img/Manual.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <button
+                            class=" mb-7 ml-7 mr-7 group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-black px-6 font-medium text-white transition-all [box-shadow:0px_4px_8px_#a3a3a3] active:translate-y-[4px] active:shadow-none"><a
+                                href="https://www.dropbox.com/scl/fi/qnrwdi1q3icikq53vdg5g/.REC.zip?rlkey=xr06es45h5flgce48nhgr9e58&st=ownfflvq&dl=1">Télécharger
+                                le modpack</a></button>
+                    </div>
+                    <div class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+
+</body>
+
+</html>
